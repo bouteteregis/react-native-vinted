@@ -6,8 +6,8 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Ionicons } from "@expo/vector-icons";
 import HomeScreen from "./containers/HomeScreen";
 import ProfileScreen from "./containers/ProfileScreen";
-import SignInScreen from "./containers/SignInScreen";
-import SignUpScreen from "./containers/SignUpScreen";
+import SignInScreen from "./containers/Login";
+import SignUpScreen from "./containers/SignUp";
 import SettingsScreen from "./containers/SettingsScreen";
 import SplashScreen from "./containers/SplashScreen";
 

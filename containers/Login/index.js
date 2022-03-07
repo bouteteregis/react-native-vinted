@@ -1,10 +1,25 @@
 import { useNavigation } from "@react-navigation/core";
-import { Button, Text, TextInput, View, TouchableOpacity } from "react-native";
+
+import axios from "axios";
+
+import {
+  StyleSheet,
+  Text,
+  TextInput,
+  ScrollView,
+  View,
+  Button,
+  Image,
+  Platform,
+  TouchableOpacity,
+} from "react-native";
+
+import styles from "./styles";
 
 export default function SignInScreen({ setToken }) {
   const navigation = useNavigation();
   return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+    <View style={styles.textStyle}>
       <View>
         <Text>Name: </Text>
         <TextInput placeholder="Username" />
